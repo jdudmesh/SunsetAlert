@@ -11,6 +11,7 @@
 
 import SwiftUI
 import AVFoundation
+import UserNotifications
 
 @main
 struct SunsetAlertApp: App {
@@ -48,6 +49,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusBarItem?.button?.image = #imageLiteral(resourceName: "sunrise16x16.png")
         statusBarItem?.button?.action = #selector(AppDelegate.togglePopover(_:))
         
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { success, error in
+            if success {
+                debugPrint("All set!")
+            } else if let error = error {
+                debugPrint(error.localizedDescription)
+            }
+        }
         timer = Timer.scheduledTimer(withTimeInterval: 30.0, repeats: true) { t in
             contentView.fetchSunsetTime()
             // get the next sunset if not already set
@@ -64,10 +72,26 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             }
         }
 
+        playAlarm()
     }
     
     func playAlarm() {
+        
         NSSound(named: "cock-a-doodle-do")?.play()
+        
+        let content = UNMutableNotificationContent()
+        content.title = "Sunset Alert"
+        content.subtitle = "It's sunset!"
+        content.sound = UNNotificationSound.default        
+
+        // show this notification five seconds from now
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+
+        // choose a random identifier
+        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+
+        // add our notification request
+        UNUserNotificationCenter.current().add(request)
     }
     
     func applicationWillTerminate(_ notification: Notification) {

@@ -7,22 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E85FE7C24B5D0F800B23E2E /* MenuBarPopoverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E85FE7B24B5D0F800B23E2E /* MenuBarPopoverApp.swift */; };
+		1E85FE7C24B5D0F800B23E2E /* SunsetAlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E85FE7B24B5D0F800B23E2E /* SunsetAlertApp.swift */; };
 		1E85FE7E24B5D0F800B23E2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E85FE7D24B5D0F800B23E2E /* ContentView.swift */; };
 		1E85FE8024B5D0FE00B23E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E85FE7F24B5D0FE00B23E2E /* Assets.xcassets */; };
 		1E85FE8324B5D0FE00B23E2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E85FE8224B5D0FE00B23E2E /* Preview Assets.xcassets */; };
 		1E85FE8C24B5E07700B23E2E /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E85FE8B24B5E07700B23E2E /* EmptyView.swift */; };
+		B0A86BD027B10A7D00C4D81D /* sunrise.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A86BCF27B10A7D00C4D81D /* sunrise.png */; };
+		B0A86BD227B10B3100C4D81D /* sunrise24x24.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A86BD127B10B3100C4D81D /* sunrise24x24.png */; };
+		B0A86BD427B10EA100C4D81D /* sunrise16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A86BD327B10EA100C4D81D /* sunrise16x16.png */; };
+		B0A86BD627B10EE100C4D81D /* sunrise_color.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A86BD527B10EE100C4D81D /* sunrise_color.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1E85FE7824B5D0F800B23E2E /* MenuBarPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuBarPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E85FE7B24B5D0F800B23E2E /* MenuBarPopoverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarPopoverApp.swift; sourceTree = "<group>"; };
+		1E85FE7824B5D0F800B23E2E /* SunsetAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunsetAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E85FE7B24B5D0F800B23E2E /* SunsetAlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunsetAlertApp.swift; sourceTree = "<group>"; };
 		1E85FE7D24B5D0F800B23E2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E85FE7F24B5D0FE00B23E2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E85FE8224B5D0FE00B23E2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1E85FE8424B5D0FE00B23E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E85FE8524B5D0FE00B23E2E /* MenuBarPopover.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MenuBarPopover.entitlements; sourceTree = "<group>"; };
+		1E85FE8524B5D0FE00B23E2E /* SunsetAlert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SunsetAlert.entitlements; sourceTree = "<group>"; };
 		1E85FE8B24B5E07700B23E2E /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		B0A86BCF27B10A7D00C4D81D /* sunrise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunrise.png; sourceTree = "<group>"; };
+		B0A86BD127B10B3100C4D81D /* sunrise24x24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunrise24x24.png; sourceTree = "<group>"; };
+		B0A86BD327B10EA100C4D81D /* sunrise16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunrise16x16.png; sourceTree = "<group>"; };
+		B0A86BD527B10EE100C4D81D /* sunrise_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunrise_color.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +47,7 @@
 		1E85FE6F24B5D0F800B23E2E = {
 			isa = PBXGroup;
 			children = (
-				1E85FE7A24B5D0F800B23E2E /* MenuBarPopover */,
+				1E85FE7A24B5D0F800B23E2E /* SunsetAlert */,
 				1E85FE7924B5D0F800B23E2E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,23 +55,27 @@
 		1E85FE7924B5D0F800B23E2E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E85FE7824B5D0F800B23E2E /* MenuBarPopover.app */,
+				1E85FE7824B5D0F800B23E2E /* SunsetAlert.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1E85FE7A24B5D0F800B23E2E /* MenuBarPopover */ = {
+		1E85FE7A24B5D0F800B23E2E /* SunsetAlert */ = {
 			isa = PBXGroup;
 			children = (
-				1E85FE7B24B5D0F800B23E2E /* MenuBarPopoverApp.swift */,
+				1E85FE7B24B5D0F800B23E2E /* SunsetAlertApp.swift */,
 				1E85FE7D24B5D0F800B23E2E /* ContentView.swift */,
 				1E85FE8B24B5E07700B23E2E /* EmptyView.swift */,
 				1E85FE7F24B5D0FE00B23E2E /* Assets.xcassets */,
 				1E85FE8424B5D0FE00B23E2E /* Info.plist */,
-				1E85FE8524B5D0FE00B23E2E /* MenuBarPopover.entitlements */,
+				1E85FE8524B5D0FE00B23E2E /* SunsetAlert.entitlements */,
+				B0A86BCF27B10A7D00C4D81D /* sunrise.png */,
+				B0A86BD127B10B3100C4D81D /* sunrise24x24.png */,
+				B0A86BD327B10EA100C4D81D /* sunrise16x16.png */,
+				B0A86BD527B10EE100C4D81D /* sunrise_color.png */,
 				1E85FE8124B5D0FE00B23E2E /* Preview Content */,
 			);
-			path = MenuBarPopover;
+			path = SunsetAlert;
 			sourceTree = "<group>";
 		};
 		1E85FE8124B5D0FE00B23E2E /* Preview Content */ = {
@@ -77,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1E85FE7724B5D0F800B23E2E /* MenuBarPopover */ = {
+		1E85FE7724B5D0F800B23E2E /* SunsetAlert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E85FE8824B5D0FE00B23E2E /* Build configuration list for PBXNativeTarget "MenuBarPopover" */;
+			buildConfigurationList = 1E85FE8824B5D0FE00B23E2E /* Build configuration list for PBXNativeTarget "SunsetAlert" */;
 			buildPhases = (
 				1E85FE7424B5D0F800B23E2E /* Sources */,
 				1E85FE7524B5D0F800B23E2E /* Frameworks */,
@@ -89,9 +101,9 @@
 			);
 			dependencies = (
 			);
-			name = MenuBarPopover;
-			productName = MenuBarPopover;
-			productReference = 1E85FE7824B5D0F800B23E2E /* MenuBarPopover.app */;
+			name = SunsetAlert;
+			productName = SunsetAlert;
+			productReference = 1E85FE7824B5D0F800B23E2E /* SunsetAlert.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1E85FE7324B5D0F800B23E2E /* Build configuration list for PBXProject "MenuBarPopover" */;
+			buildConfigurationList = 1E85FE7324B5D0F800B23E2E /* Build configuration list for PBXProject "SunsetAlert" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1E85FE7724B5D0F800B23E2E /* MenuBarPopover */,
+				1E85FE7724B5D0F800B23E2E /* SunsetAlert */,
 			);
 		};
 /* End PBXProject section */
@@ -131,8 +143,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A86BD227B10B3100C4D81D /* sunrise24x24.png in Resources */,
 				1E85FE8324B5D0FE00B23E2E /* Preview Assets.xcassets in Resources */,
 				1E85FE8024B5D0FE00B23E2E /* Assets.xcassets in Resources */,
+				B0A86BD027B10A7D00C4D81D /* sunrise.png in Resources */,
+				B0A86BD427B10EA100C4D81D /* sunrise16x16.png in Resources */,
+				B0A86BD627B10EE100C4D81D /* sunrise_color.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +161,7 @@
 			files = (
 				1E85FE7E24B5D0F800B23E2E /* ContentView.swift in Sources */,
 				1E85FE8C24B5E07700B23E2E /* EmptyView.swift in Sources */,
-				1E85FE7C24B5D0F800B23E2E /* MenuBarPopoverApp.swift in Sources */,
+				1E85FE7C24B5D0F800B23E2E /* SunsetAlertApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,23 +288,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MenuBarPopover/MenuBarPopover.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_ENTITLEMENTS = SunsetAlert/SunsetAlert.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_ASSET_PATHS = "\"MenuBarPopover/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_ASSET_PATHS = "\"SunsetAlert/Preview Content\"";
+				DEVELOPMENT_TEAM = 8NGL2N446J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MenuBarPopover/Info.plist;
+				INFOPLIST_FILE = SunsetAlert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zaferarican.MenuBarPopover;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dudmesh.SunsetAlert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -298,23 +315,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MenuBarPopover/MenuBarPopover.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_ENTITLEMENTS = SunsetAlert/SunsetAlert.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_ASSET_PATHS = "\"MenuBarPopover/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_ASSET_PATHS = "\"SunsetAlert/Preview Content\"";
+				DEVELOPMENT_TEAM = 8NGL2N446J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MenuBarPopover/Info.plist;
+				INFOPLIST_FILE = SunsetAlert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zaferarican.MenuBarPopover;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dudmesh.SunsetAlert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -322,7 +340,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E85FE7324B5D0F800B23E2E /* Build configuration list for PBXProject "MenuBarPopover" */ = {
+		1E85FE7324B5D0F800B23E2E /* Build configuration list for PBXProject "SunsetAlert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E85FE8624B5D0FE00B23E2E /* Debug */,
@@ -331,7 +349,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E85FE8824B5D0FE00B23E2E /* Build configuration list for PBXNativeTarget "MenuBarPopover" */ = {
+		1E85FE8824B5D0FE00B23E2E /* Build configuration list for PBXNativeTarget "SunsetAlert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E85FE8924B5D0FE00B23E2E /* Debug */,

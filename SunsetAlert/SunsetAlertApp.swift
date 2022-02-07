@@ -3,12 +3,14 @@
 //  MenuBarPopover
 //
 //  Created by Zafer Arıcan on 8.07.2020.
+// Modified by John Dudmesh 7/2/2022
 //
+// Icons from here: https://www.flaticon.com/free-icon/sunrise_1852515?term=sunset&page=1&position=3&page=1&position=3&related_id=1852515&origin=tag#
 
 import SwiftUI
 
 @main
-struct MenuBarPopoverApp: App {
+struct SunsetAlertApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     init() {
       AppDelegate.shared = self.appDelegate
@@ -35,7 +37,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         popover.contentViewController?.view = NSHostingView(rootView: contentView)
         popover.contentViewController?.view.window?.makeKey()
         statusBarItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
-        statusBarItem?.button?.title = "Test"
+        statusBarItem?.button?.image = #imageLiteral(resourceName: "sunrise16x16.png")
         statusBarItem?.button?.action = #selector(AppDelegate.togglePopover(_:))
     }
     @objc func showPopover(_ sender: AnyObject?) {

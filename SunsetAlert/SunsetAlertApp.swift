@@ -71,8 +71,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 contentView.fetchSunsetTime()
             }
         }
-
-        playAlarm()
+        
     }
     
     func playAlarm() {
@@ -82,7 +81,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let content = UNMutableNotificationContent()
         content.title = "Sunset Alert"
         content.subtitle = "It's sunset!"
-        content.sound = UNNotificationSound.default        
+        content.sound = UNNotificationSound.default
 
         // show this notification five seconds from now
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)

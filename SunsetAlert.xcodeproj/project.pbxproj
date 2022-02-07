@@ -20,6 +20,12 @@
 		B0A86BDA27B1135D00C4D81D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B0A86BD827B1135D00C4D81D /* README.md */; };
 		B0A86BDC27B1151100C4D81D /* location_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A86BDB27B1151100C4D81D /* location_pin.png */; };
 		B0A86BDE27B153E100C4D81D /* cock-a-doodle-do.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0A86BDD27B153E100C4D81D /* cock-a-doodle-do.wav */; };
+		B0A86BE427B15E2C00C4D81D /* sunrise_color24x24.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A86BDF27B15E2C00C4D81D /* sunrise_color24x24.png */; };
+		B0A86BE527B15E2C00C4D81D /* sunrise_color32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A86BE027B15E2C00C4D81D /* sunrise_color32x32.png */; };
+		B0A86BE627B15E2C00C4D81D /* sunrise_color16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A86BE127B15E2C00C4D81D /* sunrise_color16x16.png */; };
+		B0A86BE727B15E2C00C4D81D /* sunrise_color64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A86BE227B15E2C00C4D81D /* sunrise_color64x64.png */; };
+		B0A86BE827B15E2C00C4D81D /* sunrise_color128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A86BE327B15E2C00C4D81D /* sunrise_color128x128.png */; };
+		B0A86BEA27B15E6400C4D81D /* sunrise_color256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A86BE927B15E6400C4D81D /* sunrise_color256x256.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +45,12 @@
 		B0A86BD827B1135D00C4D81D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B0A86BDB27B1151100C4D81D /* location_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location_pin.png; sourceTree = "<group>"; };
 		B0A86BDD27B153E100C4D81D /* cock-a-doodle-do.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cock-a-doodle-do.wav"; sourceTree = "<group>"; };
+		B0A86BDF27B15E2C00C4D81D /* sunrise_color24x24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunrise_color24x24.png; sourceTree = "<group>"; };
+		B0A86BE027B15E2C00C4D81D /* sunrise_color32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunrise_color32x32.png; sourceTree = "<group>"; };
+		B0A86BE127B15E2C00C4D81D /* sunrise_color16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunrise_color16x16.png; sourceTree = "<group>"; };
+		B0A86BE227B15E2C00C4D81D /* sunrise_color64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunrise_color64x64.png; sourceTree = "<group>"; };
+		B0A86BE327B15E2C00C4D81D /* sunrise_color128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunrise_color128x128.png; sourceTree = "<group>"; };
+		B0A86BE927B15E6400C4D81D /* sunrise_color256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunrise_color256x256.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,12 @@
 				B0A86BD127B10B3100C4D81D /* sunrise24x24.png */,
 				B0A86BD327B10EA100C4D81D /* sunrise16x16.png */,
 				B0A86BD527B10EE100C4D81D /* sunrise_color.png */,
+				B0A86BE127B15E2C00C4D81D /* sunrise_color16x16.png */,
+				B0A86BDF27B15E2C00C4D81D /* sunrise_color24x24.png */,
+				B0A86BE027B15E2C00C4D81D /* sunrise_color32x32.png */,
+				B0A86BE227B15E2C00C4D81D /* sunrise_color64x64.png */,
+				B0A86BE327B15E2C00C4D81D /* sunrise_color128x128.png */,
+				B0A86BE927B15E6400C4D81D /* sunrise_color256x256.png */,
 				B0A86BDB27B1151100C4D81D /* location_pin.png */,
 				B0A86BDD27B153E100C4D81D /* cock-a-doodle-do.wav */,
 				1E85FE8124B5D0FE00B23E2E /* Preview Content */,
@@ -155,15 +173,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A86BE727B15E2C00C4D81D /* sunrise_color64x64.png in Resources */,
 				B0A86BDC27B1151100C4D81D /* location_pin.png in Resources */,
 				B0A86BD227B10B3100C4D81D /* sunrise24x24.png in Resources */,
+				B0A86BE527B15E2C00C4D81D /* sunrise_color32x32.png in Resources */,
+				B0A86BEA27B15E6400C4D81D /* sunrise_color256x256.png in Resources */,
 				1E85FE8324B5D0FE00B23E2E /* Preview Assets.xcassets in Resources */,
+				B0A86BE427B15E2C00C4D81D /* sunrise_color24x24.png in Resources */,
 				1E85FE8024B5D0FE00B23E2E /* Assets.xcassets in Resources */,
+				B0A86BE827B15E2C00C4D81D /* sunrise_color128x128.png in Resources */,
 				B0A86BDE27B153E100C4D81D /* cock-a-doodle-do.wav in Resources */,
 				B0A86BD927B1135D00C4D81D /* LICENSE in Resources */,
 				B0A86BD027B10A7D00C4D81D /* sunrise.png in Resources */,
 				B0A86BD427B10EA100C4D81D /* sunrise16x16.png in Resources */,
 				B0A86BDA27B1135D00C4D81D /* README.md in Resources */,
+				B0A86BE627B15E2C00C4D81D /* sunrise_color16x16.png in Resources */,
 				B0A86BD627B10EE100C4D81D /* sunrise_color.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
